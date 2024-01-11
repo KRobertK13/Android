@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MOBWEB</string>
+    <string name="budget">Incomes and Expenses</string>
+    <string name="anal">Analysis</string>
+    <string name="spending_limit">Spending Limit</string>
+    <string name="target_savings">Target Savings</string>
+    <string name="Amount">Amount</string>
+    <string name="category">Category</string>
+    <string name="description">Description</string>
+    <string name="sign">Sign</string>
+    <string name="name">Name</string>
+    <string name="new_inex_item">Add New Item</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="savings">Savings</string>
+    <string name="expenses">Expenses</string>
+    <string name="details">Details</string>
+    <string-array name="category_items">
+        <item>Work</item>
+        <item>Sell</item>
+        <item>Buy</item>
+        <item>Entertainment</item>
+        <item>Overhead</item>
+    </string-array>
+</resources>

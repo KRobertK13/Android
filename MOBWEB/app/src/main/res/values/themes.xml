@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MOBWEB" parent="Theme.Material3.DayNight.NoActionBar">
+        <item type="attr" name="colorPrimary">@color/primColor</item>
+        <item type="attr" name="colorPrimary">@color/secColor</item>
+    </style>
+
+    <style name="Theme.MOBWEB" parent="Base.Theme.MOBWEB" >
+        <item type="attr" name="colorPrimary">@color/primColor</item>
+        <item type="attr" name="colorPrimary">@color/secColor</item>
+    </style>
+    <style name="CircularDeterminateProgressBar">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/circle</item>
+    </style>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    tools:context=".MainActivity">
+    <!--R92D9T-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/spending_limit"
+            android:textColor="#FF1F1F1F"
+            android:textSize="30sp"/>
+
+        <EditText
+            android:id="@+id/etSpending"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#FF1F1F1F"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/target_savings"
+            android:textColor="#FF1F1F1F"
+            android:textSize="30sp"/>
+
+        <EditText
+            android:id="@+id/etSaving"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#FF1F1F1F"
+            android:textSize="30sp"/>
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <ImageButton
+            android:id="@+id/btnList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/budget" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/budget"
+            android:textColor="#FF1F1F1F"
+            android:layout_margin="30dp"
+            android:layout_gravity="bottom"
+            android:textSize="45sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <ImageButton
+            android:id="@+id/btnAnal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/analysis" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/anal"
+            android:textColor="#FF1F1F1F"
+            android:layout_margin="30dp"
+            android:layout_gravity="bottom"
+            android:textSize="45sp" />
+    </FrameLayout>
+</LinearLayout>
