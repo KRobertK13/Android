@@ -36,3 +36,16 @@ Az alkalmazás a munka folyamán történt változtatásokat természetesen elme
 - RecyclerView
 - Perzisztens adattárolás
 - Intent
+
+Main menu:
+
+![411146548_897270182063925_8494560215353878150_n](https://github.com/KRobertK13/Android/assets/102753849/00887355-b5f1-49a2-96a4-60eb612e938a)
+
+Incomes and Expenses:
+
+![413386138_1103443117478229_3243623716168342164_n](https://github.com/KRobertK13/Android/assets/102753849/7f978c65-8128-406e-8f91-d24323d2911d)
+
+Analisys
+
+![413964628_912103256748414_5040403112300550804_n](https://github.com/KRobertK13/Android/assets/102753849/0efe36b0-1fb6-4cff-b3ac-e927977d9b31)
+![413326072_317287717955359_8668914944001736248_n](https://github.com/KRobertK13/Android/assets/102753849/0a75e44c-f5b2-4b50-b0ff-75e9ad20ab58)
